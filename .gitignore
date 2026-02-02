@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Data (large files, not tracked)
+data/raw/*
+data/real/*
+data/synthetic_t2i/*
+data/synthetic_aug/*
+!data/**/.gitkeep
+
+# Models
+models/*.pth
+models/*.pt
+
+# Results and figures (regenerable)
+results/*
+figures/*
+!results/.gitkeep
+!figures/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
