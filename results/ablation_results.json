@@ -1,0 +1,30 @@
+{
+  "prompt_diversity": {
+    "low_diversity_100": {
+      "mean": 59.26,
+      "std": 11.32
+    },
+    "diverse_100": {
+      "mean": 69.31,
+      "std": 11.32
+    },
+    "diverse_full": {
+      "mean": 80.43,
+      "std": 5.24
+    }
+  },
+  "dataset_size": {
+    "100": {
+      "mean": 74.61,
+      "std": 7.22
+    },
+    "200": {
+      "mean": 78.31,
+      "std": 8.23
+    },
+    "full": {
+      "mean": 79.37,
+      "std": 1.29
+    }
+  }
+}
