@@ -1,4 +1,4 @@
-# Mirage
+# SynthBench
 
 Benchmarking synthetic data generation methods for visual classification. Measures how well models trained on AI-generated images transfer to real-world photos in zero-shot and few-shot settings.
 
