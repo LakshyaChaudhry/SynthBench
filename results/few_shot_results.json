@@ -1,0 +1,360 @@
+{
+  "configs": {
+    "t2i_5": {
+      "mean": 86.24,
+      "std": 2.7,
+      "runs": [
+        {
+          "accuracy": 88.89,
+          "per_class": {
+            "laptop": 90.0,
+            "mouse": 100.0,
+            "pen": 90.0,
+            "phone": 66.7,
+            "rubiks_cube": 100.0,
+            "water_bottle": 90.0
+          }
+        },
+        {
+          "accuracy": 87.3,
+          "per_class": {
+            "laptop": 90.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 75.0,
+            "rubiks_cube": 90.9,
+            "water_bottle": 70.0
+          }
+        },
+        {
+          "accuracy": 82.54,
+          "per_class": {
+            "laptop": 90.0,
+            "mouse": 80.0,
+            "pen": 100.0,
+            "phone": 58.3,
+            "rubiks_cube": 90.9,
+            "water_bottle": 80.0
+          }
+        }
+      ]
+    },
+    "t2i_10": {
+      "mean": 89.42,
+      "std": 3.26,
+      "runs": [
+        {
+          "accuracy": 93.65,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 83.3,
+            "rubiks_cube": 90.9,
+            "water_bottle": 90.0
+          }
+        },
+        {
+          "accuracy": 88.89,
+          "per_class": {
+            "laptop": 90.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 91.7,
+            "rubiks_cube": 90.9,
+            "water_bottle": 60.0
+          }
+        },
+        {
+          "accuracy": 85.71,
+          "per_class": {
+            "laptop": 70.0,
+            "mouse": 90.0,
+            "pen": 100.0,
+            "phone": 83.3,
+            "rubiks_cube": 90.9,
+            "water_bottle": 80.0
+          }
+        }
+      ]
+    },
+    "t2i_25": {
+      "mean": 92.06,
+      "std": 2.24,
+      "runs": [
+        {
+          "accuracy": 93.65,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 90.0,
+            "pen": 100.0,
+            "phone": 91.7,
+            "rubiks_cube": 100.0,
+            "water_bottle": 80.0
+          }
+        },
+        {
+          "accuracy": 88.89,
+          "per_class": {
+            "laptop": 90.0,
+            "mouse": 100.0,
+            "pen": 80.0,
+            "phone": 91.7,
+            "rubiks_cube": 81.8,
+            "water_bottle": 90.0
+          }
+        },
+        {
+          "accuracy": 93.65,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 90.0,
+            "pen": 90.0,
+            "phone": 91.7,
+            "rubiks_cube": 100.0,
+            "water_bottle": 90.0
+          }
+        }
+      ]
+    },
+    "aug_5": {
+      "mean": 97.88,
+      "std": 1.98,
+      "runs": [
+        {
+          "accuracy": 95.24,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 90.0,
+            "pen": 100.0,
+            "phone": 83.3,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 100.0,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 98.41,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 91.7,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        }
+      ]
+    },
+    "aug_10": {
+      "mean": 98.41,
+      "std": 1.29,
+      "runs": [
+        {
+          "accuracy": 100.0,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 98.41,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 91.7,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 96.83,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 81.8,
+            "water_bottle": 100.0
+          }
+        }
+      ]
+    },
+    "aug_25": {
+      "mean": 99.47,
+      "std": 0.75,
+      "runs": [
+        {
+          "accuracy": 100.0,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 100.0,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 98.41,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 91.7,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        }
+      ]
+    },
+    "real_only_5": {
+      "mean": 79.36,
+      "std": 5.94,
+      "runs": [
+        {
+          "accuracy": 85.71,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 90.0,
+            "pen": 100.0,
+            "phone": 75.0,
+            "rubiks_cube": 63.6,
+            "water_bottle": 90.0
+          }
+        },
+        {
+          "accuracy": 80.95,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 80.0,
+            "pen": 90.0,
+            "phone": 50.0,
+            "rubiks_cube": 72.7,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 71.43,
+          "per_class": {
+            "laptop": 90.0,
+            "mouse": 100.0,
+            "pen": 70.0,
+            "phone": 33.3,
+            "rubiks_cube": 54.5,
+            "water_bottle": 90.0
+          }
+        }
+      ]
+    },
+    "real_only_10": {
+      "mean": 93.12,
+      "std": 4.17,
+      "runs": [
+        {
+          "accuracy": 87.3,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 90.0,
+            "pen": 100.0,
+            "phone": 75.0,
+            "rubiks_cube": 63.6,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 96.83,
+          "per_class": {
+            "laptop": 90.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 100.0,
+            "water_bottle": 90.0
+          }
+        },
+        {
+          "accuracy": 95.24,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 83.3,
+            "rubiks_cube": 90.9,
+            "water_bottle": 100.0
+          }
+        }
+      ]
+    },
+    "real_only_25": {
+      "mean": 98.94,
+      "std": 0.75,
+      "runs": [
+        {
+          "accuracy": 98.41,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 90.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 98.41,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 90.9,
+            "water_bottle": 100.0
+          }
+        },
+        {
+          "accuracy": 100.0,
+          "per_class": {
+            "laptop": 100.0,
+            "mouse": 100.0,
+            "pen": 100.0,
+            "phone": 100.0,
+            "rubiks_cube": 100.0,
+            "water_bottle": 100.0
+          }
+        }
+      ]
+    }
+  },
+  "zero_shot": {
+    "t2i": 80.95,
+    "aug": 98.41,
+    "real_only": 98.41
+  }
+}

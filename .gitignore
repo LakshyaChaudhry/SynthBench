@@ -15,12 +15,6 @@ data/synthetic_aug/*
 models/*.pth
 models/*.pt
 
-# Results and figures (regenerable)
-results/*
-figures/*
-!results/.gitkeep
-!figures/.gitkeep
-
 # macOS
 .DS_Store
 

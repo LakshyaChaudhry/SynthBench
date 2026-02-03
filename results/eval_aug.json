@@ -1,0 +1,93 @@
+{
+  "model": "models/aug_zero_shot.pth",
+  "test_data": "data/real/test",
+  "accuracy": 98.41,
+  "per_class": {
+    "laptop": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 10.0
+    },
+    "mouse": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 10.0
+    },
+    "pen": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 10.0
+    },
+    "phone": {
+      "precision": 1.0,
+      "recall": 0.917,
+      "f1": 0.957,
+      "support": 12.0
+    },
+    "rubiks_cube": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 11.0
+    },
+    "water_bottle": {
+      "precision": 0.909,
+      "recall": 1.0,
+      "f1": 0.952,
+      "support": 10.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      11,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      11,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  ]
+}

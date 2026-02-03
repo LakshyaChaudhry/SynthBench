@@ -1,0 +1,281 @@
+{
+  "t2i_zero_shot": {
+    "model": "models/t2i_zero_shot.pth",
+    "test_data": "data/real/test",
+    "accuracy": 80.95,
+    "per_class": {
+      "laptop": {
+        "precision": 0.818,
+        "recall": 0.9,
+        "f1": 0.857,
+        "support": 10.0
+      },
+      "mouse": {
+        "precision": 0.769,
+        "recall": 1.0,
+        "f1": 0.87,
+        "support": 10.0
+      },
+      "pen": {
+        "precision": 0.909,
+        "recall": 1.0,
+        "f1": 0.952,
+        "support": 10.0
+      },
+      "phone": {
+        "precision": 0.875,
+        "recall": 0.583,
+        "f1": 0.7,
+        "support": 12.0
+      },
+      "rubiks_cube": {
+        "precision": 1.0,
+        "recall": 0.636,
+        "f1": 0.778,
+        "support": 11.0
+      },
+      "water_bottle": {
+        "precision": 0.615,
+        "recall": 0.8,
+        "f1": 0.696,
+        "support": 10.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        7,
+        0,
+        4
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        7,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        8
+      ]
+    ]
+  },
+  "aug_zero_shot": {
+    "model": "models/aug_zero_shot.pth",
+    "test_data": "data/real/test",
+    "accuracy": 98.41,
+    "per_class": {
+      "laptop": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10.0
+      },
+      "mouse": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10.0
+      },
+      "pen": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10.0
+      },
+      "phone": {
+        "precision": 1.0,
+        "recall": 0.917,
+        "f1": 0.957,
+        "support": 12.0
+      },
+      "rubiks_cube": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11.0
+      },
+      "water_bottle": {
+        "precision": 0.909,
+        "recall": 1.0,
+        "f1": 0.952,
+        "support": 10.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        11,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "real_baseline": {
+    "model": "models/real_baseline.pth",
+    "test_data": "data/real/test",
+    "accuracy": 98.41,
+    "per_class": {
+      "laptop": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10.0
+      },
+      "mouse": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.947,
+        "support": 10.0
+      },
+      "pen": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10.0
+      },
+      "phone": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 12.0
+      },
+      "rubiks_cube": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11.0
+      },
+      "water_bottle": {
+        "precision": 0.909,
+        "recall": 1.0,
+        "f1": 0.952,
+        "support": 10.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  }
+}
